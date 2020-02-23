@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Python Programming</title>
+</head>
+<body>
+    <div>
+        <p>
+            VA Psych : You were once quoted as saying, I dropped from my mother's womb, I hit the floor, and I started crawling through hostile territory toward my grave.
+
+            Sometimes, the only way to heal our wounds is to make peace with the demons who created them
+        </p>
+    </div>
+    <div>
+        <p>
+            pyton, code runner, autopep8, linting
+        </p>
+        <p>
+            pyton input exercise
+
+            #name = input('What is your name? ')
+            #print('Hi ' + name)
+
+            name = input('what is your name? ')
+            favorite_color = input('what is your faverite color? ')
+            print(name + ' likes ' + favorite_color)
+
+            start it in terminal: python3 app.py
+
+        </p>
+        <p>
+            basic variables
+
+                student_count = 1000 #numbers with a decimal point = integers
+                rating = 4.99 #floating point number = floats
+                is_published = True #boolean
+                course_names = "Python Programming" #strings
+
+        </p>
+        <p>
+            len = we use the len function to get the lenght of a string
+
+            course = "Python Programming"
+            print(len(course))
+            print(course[0])
+            print(course[8])
+            print(course[-1])
+            print(course[0:3])
+            print(course[0:])
+            print(course[:7])
+            print(course[:])
+
+        </p>
+        <p>
+            escape sequences
+
+            # \"
+            # \'
+            # \\
+            # \n
+
+            course = "python \nprogramming"
+            print(course)
+
+        </p>
+        <p>
+            f"{} {}" = an expression that will be evaluated at runtime
+
+            first = "Sephiroth"
+            last = "Craft"
+            #full = first + " " + last
+            #full = f"{first} {last}"
+            #full = f"{len(first)} {first} {len(last)} {last}"
+            full = f"{len(first)} {first} {len(last)} {last} {len(first) + len(last)}"
+
+            print(full)
+
+        </p>
+        <p>
+            string methods
+
+            course = "  python programming"
+
+            print(course.upper())
+            # course_capital = course.upper()
+            print(course.lower())
+            print(course.title())
+
+            # particularly usfull when we recive input from user, rstrip, lstrip.
+            print(course.strip())
+
+            print(course.find("pro"))
+            print(course.replace("p", "j"))
+
+            # in operator
+            print("pro" in course)
+            print("swift" not in course)
+
+        </p>
+        <p>
+            python math modules https://docs.python.org/3/library/math.html
+            numbers 
+            
+
+
+        </p>
+    </div>
+</body>
+</html>
