@@ -1,16 +1,8 @@
+#name = input('What is your name? ')
+#print('Hi ' + name)
 
-# x = 1  # integers
-# x = 1.1  # float
-# x = 1 + 2j  # a + bi = complex numbers)
-
-print(10 + 3)  # addition
-print(10 - 3)  # subtraction
-print(10 * 3)  # multiplication
-print(10 / 3)  # division
-print(10 // 3)  # if you wont integers
-print(10 % 3)  # modulus
-print(10 ** 3)  # exponent, left to the power of right
-
-x = 10
-x = x + 3  # statment
-x += 3  # augmented assignment operator
+name = input('what is your name? ')
+age = input('what is your age? ')
+#email = input('what is your email? ')
+favorite_color = input('what is your faverite color? ')
+print(name + ' likes ' + favorite_color + age)
