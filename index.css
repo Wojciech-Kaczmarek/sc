@@ -29,3 +29,17 @@ footer p{
     padding-bottom: 15px;
     padding-right: 15px;
 }
+#container {
+	width: 60%;
+    margin: auto;
+}
+    
+@media screen and (max-width: 768px) {
+	#container {
+		width: 90%;	
+	}
+	
+	h1 {
+		font-size: 200%;	
+	}
+}
