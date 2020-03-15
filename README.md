@@ -7,7 +7,8 @@ There is freedom in life
 There is purpose in death
 The Force is all things and I am the Force
 
-Python Tutorial for Beginners [Full Course Mosh Hamedani] Learn Python for Web Development
+-Python Tutorial for Beginners [Full Course Mosh Hamedani] Learn Python for Web Development.
+-5 Day Coding Challenge.
 
 A. D. 22.02.2020
 
