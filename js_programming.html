@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +8,12 @@
     <style>
         .custom_class {
             color: red;
-        };
+        }
+
+        ;
     </style>
 </head>
+
 <body>
     <div id="heading">
         <h1 class="sports-history">
@@ -20,45 +24,119 @@
         <h3>hello world</h3>
         <p>
 
-        let person = {
+            let person = {
             firstName: 'kiss',
             lastName: 'hell',
             age: 33
-        };
+            };
 
-        let selectedColors = ['red', 'blue'];
-        selectedColors[2] = 4;
+            let selectedColors = ['red', 'blue'];
+            selectedColors[2] = 4;
 
-        console.log(selectedColors.length, selectedColors[0], person);
+            console.log(selectedColors.length, selectedColors[0], person);
         </p>
         <p>
 
-        //performing a task
-        function greet(name, lastName) {
+            //performing a task
+            function greet(name, lastName) {
             console.log('hallo world ' + name + ' ' + lastName);
-        }
+            }
 
-        //calculeting a value
+            //calculeting a value
 
-        function square(number) {
+            function square(number) {
             return number * number;
-        }
+            }
 
-        console.log(square(3));
+            console.log(square(3));
         </p>
         <p>
             let my_element = document.createElement('h1');
             let my_span = document.createElement('span');
-            
+
             my_span.innerText = "your mother";
-            
+
             my_element.appendChild(my_span);
-            
+
             my_element.classList.add('custom_class');
-            
+
             document.body.appendChild(my_element);
+        </p>
+    </div>
+    <div>
+        <p>
+            /*
+            var tweet = prompt("Compose your tweet:");
+            var tweetCount = tweet.length;
+            alert("You have written " + tweetCount + " characters, you have " + (260 - tweetCount) + " characters
+            remaning.")
+            */
+
+            /*
+            var tweet = prompt("Compose your tweet:");
+            alert("You have written " + tweet.length + " characters, you have " + (140 - tweet.length) + " characters
+            remaning.")
+            */
+
+            /*
+            var tweet = prompt("Compose your tweet:");
+            var TweetUnder140 = tweet.slice(0,140);
+            alert(TweetUnder140);
+            */
+
+            /*
+            var tweet = prompt("Compose your tweet:");
+            alert(tweet.slice(0,140));
+            */
+
+            //alert(prompt("Compose your tweet:").slice(0,140));
+
+            var name = prompt("what is your name:");
+
+            var firstChar = name.slice(0,1);
+            var upperCasefirstChar = firstChar.toUpperCase();
+            var restOfName = name.slice(1,name.lenth);
+            restOfName = restOfName.toLowerCase();
+            var capitalizedName = upperCasefirstChar + restOfName;
+
+            alert("hello " + capitalizedName);
+
+
+            /*
+            var name = "kiss";
+            var place = "hell";
+
+            console.log("you are "+name+" and you are from "+place)
+
+            console.log(place+" "+name)
+
+            // string
+
+            console.log("bla ${name} bla")
+            console.log('bla ${name} bla')
+            console.log(`bla ${name} bla`)
+
+            alert(name + " "+"is from" + " " + place)
+            */
+
+
+
+
+            // const name = 'kiss hell';
+            // const age = 1;
+
+
+            // console.log(`hey, my name is ${name} and i hope you are ready to see my new, beginer project`);
+
+            // console.log(`my name is ${name} and my age is ${age}`);
+            //console.log('my name is '+name+' and my age is '+age+'');
+
+            // string = tekst ' ; number ; bigint => 2*53 ; boolean = true false ; null ; undefined ; symbol
+
+
         </p>
     </div>
     <script src="./index.js"></script>
 </body>
+
 </html>
