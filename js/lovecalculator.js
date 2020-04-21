@@ -13,3 +13,20 @@ if (loveScore > 30 && loveScore <= 70) {
 if (loveScore <= 30) {
     alert("Your love score is " + loveScore + "% You go together like oil and water.");
 }
+
+function ifLeap(year) {
+
+    if (year % 4 === 0) {
+        if (year % 100 === 0) {
+            if (year % 400 === 0) {
+                return "Leap year.";
+            } else {
+                return "Not leap year.";
+            }
+        } else {
+            return "Leap year.";
+        }
+    } else {
+        return "Not leap year.";
+    }
+}
