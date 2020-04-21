@@ -1,17 +1,19 @@
-//prompt("what is your name");
-//prompt("What is thair name");
+function loveCalculator() {
+    prompt("what is your name");
+    prompt("What is thair name");
 
-var loveScore = Math.random() * 100;
-loveScore = Math.floor(loveScore) + 1;
+    var loveScore = Math.random() * 100;
+    loveScore = Math.floor(loveScore) + 1;
 
-if (loveScore > 70) {
-    alert("Your love score is " + loveScore + "% You love each other like Kanye love Kanye.");
-}
-if (loveScore > 30 && loveScore <= 70) {
-    alert("Your love score is " + loveScore + "%");
-}
-if (loveScore <= 30) {
-    alert("Your love score is " + loveScore + "% You go together like oil and water.");
+    if (loveScore > 70) {
+        alert("Your love score is " + loveScore + "% You love each other like Kanye love Kanye.");
+    }
+    if (loveScore > 30 && loveScore <= 70) {
+        alert("Your love score is " + loveScore + "%");
+    }
+    if (loveScore <= 30) {
+        alert("Your love score is " + loveScore + "% You go together like oil and water.");
+    }
 }
 
 function ifLeap(year) {
@@ -28,5 +30,18 @@ function ifLeap(year) {
         }
     } else {
         return "Not leap year.";
+    }
+}
+
+function guestCheck() {
+
+    var guestList = ["Kiss", "Hell", "Aaliyah", "Lara", "Sephira", "Arianna"];
+
+    var guestName = prompt("What is your name?");
+
+    if (guestList.includes(guestName)) {
+        alert("Welcome!");
+    } else {
+        alert("Sorry, maybi next time.");
     }
 }
