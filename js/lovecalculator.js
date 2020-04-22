@@ -64,3 +64,12 @@ function fizzBizz() {
     count++; //count = count +1
     console.log(output);
 }
+
+function whosIsPaying(names) {
+
+    var numberOfPeople = names.length;
+    var randomPersonPosition = Math.floor(Math.random() * numberOfPeople);
+    var randomPerson = names[randomPersonPosition];
+
+    return randomPerson + " is going to buy lunch today!"
+}
