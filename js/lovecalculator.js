@@ -45,3 +45,22 @@ function guestCheck() {
         alert("Sorry, maybi next time.");
     }
 }
+
+var output = [];
+var count = 1;
+
+function fizzBizz() {
+
+    if (count % 3 === 0 && count % 5 === 0) {
+        output.push("FizzBizz");
+    } else if (count % 3 === 0) {
+        output.push("Fizz");
+    } else if (count % 5 === 0) {
+        output.push("Bizz");
+    } else {
+        output.push(count);
+    }
+
+    count++; //count = count +1
+    console.log(output);
+}
