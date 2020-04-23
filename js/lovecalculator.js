@@ -51,25 +51,19 @@ var count = 1;
 
 function fizzBizz() {
 
-    if (count % 3 === 0 && count % 5 === 0) {
-        output.push("FizzBizz");
-    } else if (count % 3 === 0) {
-        output.push("Fizz");
-    } else if (count % 5 === 0) {
-        output.push("Bizz");
-    } else {
-        output.push(count);
+    while (count < 100) {
+
+        if (count % 3 === 0 && count % 5 === 0) {
+            output.push("FizzBizz");
+        } else if (count % 3 === 0) {
+            output.push("Fizz");
+        } else if (count % 5 === 0) {
+            output.push("Bizz");
+        } else {
+            output.push(count);
+        }
+
+        count++; //count = count +1
     }
-
-    count++; //count = count +1
     console.log(output);
-}
-
-function whosIsPaying(names) {
-
-    var numberOfPeople = names.length;
-    var randomPersonPosition = Math.floor(Math.random() * numberOfPeople);
-    var randomPerson = names[randomPersonPosition];
-
-    return randomPerson + " is going to buy lunch today!"
 }
