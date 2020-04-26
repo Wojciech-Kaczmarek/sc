@@ -51,7 +51,7 @@ var count = 1;
 
 function fizzBizz() {
 
-    while (count < 100) {
+    while (count <= 100) {
 
         if (count % 3 === 0 && count % 5 === 0) {
             output.push("FizzBizz");
