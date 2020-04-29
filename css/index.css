@@ -1,9 +1,12 @@
-header {
+
+/* Navigacion Bar*/
+
+.headerContainer {
     background-color: #34495e;
     color: #f39c12;
 }
 
-a {
+nav a {
     color: #f39c12;
 }
 
