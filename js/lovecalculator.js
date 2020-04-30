@@ -87,3 +87,5 @@ function fibonacciGenerator(n) {
     }
     return output;
 }
+
+document.querySelector("h1").innerHTML = "Good bay!";
