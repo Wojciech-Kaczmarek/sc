@@ -4,6 +4,16 @@
 .headerContainer {
     background-color: #34495e;
     color: #f39c12;
+    width: 100%;
+}
+
+.navContainer {
+
+
+}
+
+.body {
+    margin: 0;
 }
 
 nav a {
