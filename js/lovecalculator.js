@@ -89,3 +89,4 @@ function fibonacciGenerator(n) {
 }
 
 document.querySelector("h1").innerHTML = "Good bay!";
+document.querySelector("p").innerHTML = "testing";
