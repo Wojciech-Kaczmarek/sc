@@ -90,3 +90,9 @@ function fibonacciGenerator(n) {
 
 document.querySelector("h1").innerHTML = "Good bay!";
 document.querySelector("p").innerHTML = "testing";
+
+function jsengin(code) {
+    return code.split(/\s+/);
+}
+
+jsengin ('var a = 5');
